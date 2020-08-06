@@ -38,6 +38,7 @@ nav .nav-right-section .menu-icon{
     background-position: -132px -38px;
     width: 30px;
     height: 30px;
+    cursor: crosshair;
 }
 
 nav .nav-right-section img{
@@ -58,4 +59,22 @@ main .main-logo{
 
 main .main-logo img{
     height:83px;
+}
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container{
+    width: 525px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+}
+main .main-input-container input{
+    height: 40px;
+    width: 450px;
+    outline: none; /* line outside the text box */
+    border: none;
 }
