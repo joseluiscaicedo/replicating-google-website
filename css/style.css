@@ -19,15 +19,28 @@ header nav{
     justify-content:flex-end;
 }
 header nav .nav-right-section{
-    width: 250px;
+    width: 230px;
     height: auto;
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 nav .nav-right-section a{
     margin-right: 10px;
     color:black;
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-position: -132px -38px;
+    width: 30px;
+    height: 30px;
+}
+
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10px;
 }
