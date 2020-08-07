@@ -69,7 +69,7 @@ main .main-input-container{
     width: 525px;
     border-radius: 24px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     border: 1px solid #dfe1e5;
 }
 main .main-input-container input{
@@ -77,4 +77,28 @@ main .main-input-container input{
     width: 450px;
     outline: none; /* line outside the text box */
     border: none;
+}
+main .main-input-container:hover{
+ box-shadow: 0 1px 6px 0 #20212447;
+ border-color: #dfe1e500;
+}
+main .main-input .search-icon{
+    opacity: 0.5;
+    height: 32px;
+    margin-top: 10px;
+    width: 19px;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png);
+    background-size: contain;
+    margin-left: 7px;
+}
+main .main-input .micro-icon{
+    
+    height: 30px;
+    width: 14px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    margin-right: 7px;
 }
